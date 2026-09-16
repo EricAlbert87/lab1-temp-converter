@@ -3,7 +3,7 @@
 	@Component({
 	    selector: 'app-temp-converter',
 	    templateUrl: './temp-converter.component.html',
-      	    styleUrls: ['./temp-converter.component.css'],
+      styleUrls: ['./temp-converter.component.css'],
 	    standalone: true,
 	    imports: [DecimalPipe]
 	})

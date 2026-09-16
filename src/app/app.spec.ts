@@ -1,6 +1,6 @@
 	import { TestBed } from '@angular/core/testing';
 	import { App } from './app';
-	import {TempConverter} from './temp-converter/temp-converter';
+	import { TempConverter } from './temp-converter/temp-converter';
 	
 	describe('App', () => {
 	  beforeEach(async () => {
