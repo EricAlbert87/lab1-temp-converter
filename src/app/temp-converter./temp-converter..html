@@ -1,0 +1,26 @@
+1.	<table>
+2.	  <tr>
+3.	    <td>
+4.	      <label for="celsius">Celsius:</label>
+5.	    </td>
+6.	    <td>
+7.	      <input name="celsius" id="celsius" value="{{celsiusValue | number: '1.0-2'}}" #celsius>
+8.	    </td>
+9.	  </tr>
+10.	  <tr>
+11.	    <td>
+12.	      <label for="fahrenheit">Fahrenheit:</label>
+13.	    </td>
+14.	    <td>
+15.	      <input name="fahrenheit" id="fahrenheit" value="{{fahrenheitValue | number: '1.0-2'}}" #fahrenheit>
+16.	    </td>
+17.	  </tr>
+18.	  <tr>
+19.	    <td>
+20.	      <button (click)="convertCelsius(celsius.value)">Celsius to Fahrenheit</button>
+21.	    </td>
+22.	    <td>
+23.	      <button (click)="convertFahrenheit(fahrenheit.value)">Fahrenheit to Celsius</button>
+24.	    </td>
+25.	  </tr>
+26.	</table>
