@@ -1,8 +1,9 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { TempConverter } from './temp-converter./temp-converter.';
 
 @Component({
-  imports: [RouterOutlet],
+  imports: [RouterOutlet, TempConverter],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
